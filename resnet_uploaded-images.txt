@@ -1,0 +1,72 @@
+{'Golden_retriever_05257.jpg': ['goldenretriever'], 'German_shepherd_dog_04890.jpg': ['germanshepherddog'], 'Dalmatian_04017.jpg': ['dalmatian'], 'Boston_terrier_02303.jpg': ['bostonterrier'], 'Great_pyrenees_05367.jpg': ['greatpyrenees'], 'Beagle_01141.jpg': ['beagle'], 'cat_01.jpg': ['cat'], 'Poodle_07956.jpg': ['poodle'], 'Boxer_02426.jpg': ['boxer'], 'Poodle_07927.jpg': ['poodle'], 'great_horned_owl_02.jpg': ['greathornedowl'], 'Great_dane_05320.jpg': ['greatdane'], 'German_shepherd_dog_04931.jpg': ['germanshepherddog'], 'Dalmatian_04068.jpg': ['dalmatian'], 'German_shorthaired_pointer_04986.jpg': ['germanshorthairedpointer'], 'Great_pyrenees_05435.jpg': ['greatpyrenees'], 'Beagle_01170.jpg': ['beagle'], 'Basenji_00974.jpg': ['basenji'], 'Boston_terrier_02285.jpg': ['bostonterrier'], 'Golden_retriever_05195.jpg': ['goldenretriever'], 'Basenji_00963.jpg': ['basenji'], 'Beagle_01125.jpg': ['beagle'], 'cat_02.jpg': ['cat'], 'Saint_bernard_08010.jpg': ['saintbernard'], 'Rabbit_002.jpg': ['rabbit'], 'gecko_80.jpg': ['gecko'], 'fox_squirrel_01.jpg': ['foxsquirrel'], 'polar_bear_04.jpg': ['polarbear'], 'Dalmatian_04037.jpg': ['dalmatian'], 'Miniature_schnauzer_06884.jpg': ['miniatureschnauzer'], 'Golden_retriever_05182.jpg': ['goldenretriever'], 'Cocker_spaniel_03750.jpg': ['cockerspaniel'], 'Saint_bernard_08036.jpg': ['saintbernard'], 'Collie_03797.jpg': ['collie'], 'Boston_terrier_02259.jpg': ['bostonterrier'], 'gecko_02.jpg': ['gecko'], 'Basset_hound_01034.jpg': ['bassethound'], 'Golden_retriever_05223.jpg': ['goldenretriever'], 'skunk_029.jpg': ['skunk'], 'cat_07.jpg': ['cat']}
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+{'Snake_01.jpg': ['snake'], 'Dog_02.jpg': ['dog'], 'Dog_01.jpg': ['dog'], 'Cup_01.jpg': ['cup']}
+
+     MATCH:
+
+                  Snake_01.jpg: 
+Real:                      snake   Classifier: diamondback, diamondback rattlesnake, crotalus adamanteus
+
+                    Cup_01.jpg: 
+Real:                        cup   Classifier:                            cup
+
+ NOT A MATCH:
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:             labrador retriever
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:             labrador retriever
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+
+     MATCH:
+
+                  Snake_01.jpg: 
+Real:                      snake   Classifier: diamondback, diamondback rattlesnake, crotalus adamanteus  
+PetLabelDog: 0  ClassLabelDog: 0
+
+                    Cup_01.jpg: 
+Real:                        cup   Classifier:                            cup  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier:             labrador retriever  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier:             labrador retriever  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 4 # Matches: 2 # NOT Matches: 2
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+
+
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :   4
+N Dog Images        :   2
+N Not-Dog Images    :   2
+
+ 
+pct_match           : 50.00
+pct_correct_dogs    : 100.00
+pct_correct_breed   : 0.00
+pct_correct_notdogs : 100.00
+
+INCORRECT Dog Breed Assignment:
+Real:                        dog   Classifier:             labrador retriever
+Real:                        dog   Classifier:             labrador retriever
+
+** Total Elapsed Runtime: 0:0:4
