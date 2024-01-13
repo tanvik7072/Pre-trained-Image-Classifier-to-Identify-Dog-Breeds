@@ -1,4 +1,4 @@
-# Pre trained Image Classifier to Identify Dog Breeds
+# Pre-trained Image Classifier to Identify Dog Breeds
 Project completed as a part of the AI programming with Python Nanodegree by Udacity
 
 # General Information
@@ -22,5 +22,5 @@ Two folders of interest: pet_images for classification and uploaded_images for u
 Use terminal/command prompt to run projects.
 
 # Usage
-Open a terminal from the workspace folder and run check_images.py. The program will classify the 40 images from the pet_images folder.
-Open a terminal from the uploaded_images folder and run sh run_models_batch_uploaded.sh. This will use all three model architectures to classify the images in the uploaded_images folder, generating result files in the workspace in .txt format.
+Open a terminal from the workspace folder and run 'check_images.py'. The program will classify the 40 images from the 'pet_images' folder.
+Open a terminal from the uploaded_images folder and run 'sh run_models_batch_uploaded.sh'. This will use all three model architectures to classify the images in the uploaded_images folder, generating result files in the workspace in .txt format.
